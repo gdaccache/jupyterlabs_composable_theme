@@ -1,10 +1,10 @@
-# a mybinder.org-ready environment for demoing jupyterlabs_composable_theme
+# a mybinder.org-ready environment for demoing jupyterlab_ca_theme
 # this environment may also be used locally on Linux/MacOS/Windows, e.g.
 #
 #   conda env update --file binder/environment.yml
-#   conda activate jupyterlabs_composable_theme-demo
+#   conda activate jupyterlab_ca_theme-demo
 #
-name: jupyterlabs_composable_theme-demo
+name: jupyterlab_ca_theme-demo
 
 channels:
   - conda-forge

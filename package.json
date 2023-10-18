@@ -1,15 +1,15 @@
 {
-  "name": "@composable/jupyterlabs-composable-theme",
-  "version": "0.1.0",
-  "description": "This theme is the custom styling for Composable Analytics' integration with Jupyter Labs, known as DataLabs.",
+  "name": "@composable/jupyterlab-ca-theme",
+  "version": "0.2.1",
+  "description": "This theme styles the integration of Jupyter Lab with Composable, known as DataLabs",
   "keywords": [
     "jupyter",
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/gdaccache/jupyterlabs_composable_theme",
+  "homepage": "https://gitub.com/gdaccache/jupyterlabs_composable_theme",
   "bugs": {
-    "url": "https://github.com/gdaccache/jupyterlabs_composable_theme/issues"
+    "url": "https://gitub.com/gdaccache/jupyterlabs_composable_theme/issues"
   },
   "license": "BSD-3-Clause",
   "author": "George Daccache",
@@ -21,7 +21,7 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gdaccache/jupyterlabs_composable_theme.git"
+    "url": "https://gitub.com/gdaccache/jupyterlabs_composable_theme.git"
   },
   "scripts": {
     "build": "jlpm run build:lib && jlpm run build:labextension:dev",
@@ -31,7 +31,7 @@
     "build:lib": "tsc",
     "clean": "jlpm run clean:lib",
     "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
-    "clean:labextension": "rimraf jupyterlabs_composable_theme/labextension",
+    "clean:labextension": "rimraf jupyterlab_ca_theme/labextension",
     "clean:all": "jlpm run clean:lib && jlpm run clean:labextension",
     "eslint": "eslint . --ext .ts,.tsx --fix",
     "eslint:check": "eslint . --ext .ts,.tsx",
@@ -42,7 +42,8 @@
     "watch:labextension": "jupyter labextension watch ."
   },
   "dependencies": {
-    "@jupyterlab/application": "^3.0.0"
+    "@jupyterlab/application": "^3.0.0",
+    "phosphor": "^0.7.1"
   },
   "devDependencies": {
     "@jupyterlab/builder": "^3.0.0",
@@ -62,6 +63,6 @@
   "jupyterlab": {
     "extension": true,
     "themePath": "style/index.css",
-    "outputDir": "jupyterlabs_composable_theme/labextension"
+    "outputDir": "jupyterlab_ca_theme/labextension"
   }
 }

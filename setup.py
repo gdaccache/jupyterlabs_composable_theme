@@ -1,5 +1,5 @@
 """
-jupyterlabs_composable_theme setup
+jupyterlab_ca_theme setup
 """
 import json
 import os
@@ -13,7 +13,7 @@ import setuptools
 HERE = os.path.abspath(os.path.dirname(__file__))
 
 # The name of the project
-name = "jupyterlabs_composable_theme"
+name = "jupyterlab_ca_theme"
 
 # Get our version
 with open(os.path.join(HERE, 'package.json')) as f:
@@ -32,7 +32,7 @@ package_data_spec = {
     ]
 }
 
-labext_name = "@composable/jupyterlabs-composable-theme"
+labext_name = "@composable/jupyterlab-ca-theme"
 
 data_files_spec = [
     ("share/jupyter/labextensions/%s" % labext_name, lab_path, "**"),
@@ -63,9 +63,9 @@ with open("README.md", "r") as fh:
 setup_args = dict(
     name=name,
     version=version,
-    url="https://github.com/gdaccache/jupyterlabs_composable_theme",
+    url="https://gitub.com/gdaccache/jupyterlabs_composable_theme",
     author="George Daccache",
-    description="This theme is the custom styling for Composable Analytics' integration with Jupyter Labs, known as DataLabs.",
+    description="This theme styles the integration of Jupyter Lab with Composable, known as DataLabs",
     long_description=long_description,
     long_description_content_type="text/markdown",
     cmdclass=cmdclass,

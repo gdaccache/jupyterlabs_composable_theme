@@ -1,8 +1,8 @@
-# jupyterlabs_composable_theme
+# jupyterlab_ca_theme
 
-![Github Actions Status](https://github.com/gdaccache/jupyterlabs_composable_theme/workflows/Build/badge.svg)
+![Github Actions Status](https://gitub.com/gdaccache/jupyterlabs_composable_theme/workflows/Build/badge.svg)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/https://gitub.com/gdaccache/jupyterlabs_composable_theme/master?urlpath=lab)
 
-This theme is the custom styling for Composable Analytics' integration with Jupyter Labs, known as DataLabs.
+This theme styles the integration of Jupyter Lab with Composable, known as DataLabs
 
 
 ## Requirements
@@ -12,7 +12,7 @@ This theme is the custom styling for Composable Analytics' integration with Jupy
 ## Install
 
 ```bash
-pip install jupyterlabs_composable_theme
+pip install jupyterlab_ca_theme
 ```
 
 ## Contributing
@@ -27,7 +27,7 @@ The `jlpm` command is JupyterLab's pinned version of
 
 ```bash
 # Clone the repo to your local environment
-# Change directory to the jupyterlabs_composable_theme directory
+# Change directory to the jupyterlab_ca_theme directory
 # Install package in development mode
 pip install -e .
 # Link your development version of the extension with JupyterLab
@@ -56,6 +56,6 @@ jupyter lab build --minimize=False
 ### Uninstall
 
 ```bash
-pip uninstall jupyterlabs_composable_theme
-jupyter labextension uninstall @composable/jupyterlabs-composable-theme
+pip uninstall jupyterlab_ca_theme
+jupyter labextension uninstall @composable/jupyterlab-ca-theme
 ```
